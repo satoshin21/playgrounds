@@ -70,3 +70,10 @@ textView.backgroundColor = .white
 
 
 PlaygroundPage.current.liveView = view
+
+let label = UILabel(frame: .init(origin: .zero, size: .init(width: 100, height: 50)))
+label.numberOfLines = 2
+label.backgroundColor = .white
+label.lineBreakMode = .byWordWrapping
+label.text = "こんにちは！"
+PlaygroundPage.current.liveView = label
