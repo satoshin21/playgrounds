@@ -32,3 +32,7 @@ stackView.addArrangedSubview(label3)
 
 label2.isHidden = true
 PlaygroundPage.current.liveView = stackView
+
+let tableView = UITableView(frame: CGRect(origin: .zero, size: .init(width: 320, height: 500)))
+
+PlaygroundPage.current.liveView = tableView
